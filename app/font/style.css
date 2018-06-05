@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'TradeGothic';
+    src: url('tradegothic/TradeGothic-Bold.eot');
+    src: url('tradegothic/TradeGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('tradegothic/TradeGothic-Bold.woff') format('woff'),
+    url('tradegothic/TradeGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'StoneSansIIITCW01-XBd';
+    src: url('stone-sans/StoneSansIIITCW01-XBd.eot');
+    src: url('stone-sans/StoneSansIIITCW01-XBd.eot?#iefix') format('embedded-opentype'),
+    url('stone-sans/StoneSansIIITCW01-XBd.woff') format('woff'),
+    url('stone-sans/StoneSansIIITCW01-XBd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StoneSansIIITCW01-Md';
+    src: url('stone-sans/StoneSansIIITCW01-Md.eot');
+    src: url('stone-sans/StoneSansIIITCW01-Md.eot?#iefix') format('embedded-opentype'),
+    url('stone-sans/StoneSansIIITCW01-Md.woff') format('woff'),
+    url('stone-sans/StoneSansIIITCW01-Md.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StoneSansIIITCW01-Lt';
+    src: url('stone-sans/StoneSansIIITCW01-Lt.eot');
+    src: url('stone-sans/StoneSansIIITCW01-Lt.eot?#iefix') format('embedded-opentype'),
+    url('stone-sans/StoneSansIIITCW01-Lt.woff') format('woff'),
+    url('stone-sans/StoneSansIIITCW01-Lt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StoneSansIIITCW01-SmBd';
+    src: url('stone-sans/StoneSansIIITCW01-SmBd.eot');
+    src: url('stone-sans/StoneSansIIITCW01-SmBd.eot?#iefix') format('embedded-opentype'),
+    url('stone-sans/StoneSansIIITCW01-SmBd.woff') format('woff'),
+    url('stone-sans/StoneSansIIITCW01-SmBd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sentinel';
+    src: url('sentinel/Sentinel-BoldItalic.eot');
+    src: url('sentinel/Sentinel-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('sentinel/Sentinel-BoldItalic.woff') format('woff'),
+    url('sentinel/Sentinel-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'StoneSansIIITCW01-Bk';
+    src: url('stone-sans/StoneSansIIITCW01-Bk.eot?#iefix') format('embedded-opentype'),
+    url('stone-sans/StoneSansIIITCW01-Bk.woff') format('woff'),
+    url('stone-sans/StoneSansIIITCW01-Bk.ttf')  format('truetype'),
+    url('stone-sans/StoneSansIIITCW01-Bk.svg#StoneSansIIITCW01-Bk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

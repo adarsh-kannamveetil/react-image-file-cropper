@@ -1,0 +1,51 @@
+.replace {
+    position: relative;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.77);
+    color: #fff;
+    padding: 16px;
+}
+.image-upload{
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.image-upload img{
+    width: 100%;
+}
+.replace .file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.replace i, .replace span {
+    vertical-align: middle;
+    display: inline-block;
+}
+.sprite-replace-img {
+    background-position: 0 -269px;
+    height: 23px;
+    width: 28px;
+}
+.replace span {
+    vertical-align: middle;
+    display: inline-block;
+}
+.pointer{
+    cursor: pointer;
+}
+input[type=file], /* FF, IE7+, chrome (except button) */
+input[type=file]::-webkit-file-upload-button { /* chromes and blink button */
+    cursor: pointer; 
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
