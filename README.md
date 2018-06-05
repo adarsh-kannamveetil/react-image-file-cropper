@@ -4,7 +4,7 @@ It provides you a button to upload the file with image preview and cropper accor
 
 [Cropperjs](https://github.com/fengyuanchen/cropperjs) as React components
 
-[![NPM](https://nodei.co/npm/react-cropper.png)](https://www.npmjs.com/package/react-image-file-cropper)
+[![NPM](https://nodei.co/npm/react-image-file-cropper.png)](https://www.npmjs.com/package/react-image-file-cropper)
 
 [Demo](http://roadmanfong.github.io/react-cropper/example/)
 
