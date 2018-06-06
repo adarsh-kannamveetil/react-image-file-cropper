@@ -1,6 +1,6 @@
 {
   "name": "react-image-file-cropper",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "react-image-file-cropper",
   "main": "build/index.js",
   "peerDependencies": {

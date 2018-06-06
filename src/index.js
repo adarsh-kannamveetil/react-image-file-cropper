@@ -62,7 +62,7 @@ export default class ImagePreview extends React.Component {
                 }
                 <a className="replace " title="Replace Image">
                     <i className="sprite-replace-img"></i>
-                    <input className="file-input" name="imageFile" onChange={this.handleFileInputChange} type="file" accept="image/gif, image/jpeg, image/png" ref={(ref) => this.fileUpload = ref} />
+                    <input className="file-input" name="imageFile" onChange={this.handleFileInputChange} type="file" accept="image/*" ref={(ref) => this.fileUpload = ref} />
                     <span >{`${(imagePreviewUrl && (cropper || preview)) ? 'Replace' : 'Upload'}`} image</span>
                 </a>
             </div>

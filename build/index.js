@@ -18123,7 +18123,7 @@ var ImagePreview = function (_React$Component) {
                     'a',
                     { className: 'replace ', title: 'Replace Image' },
                     _react2.default.createElement('i', { className: 'sprite-replace-img' }),
-                    _react2.default.createElement('input', { className: 'file-input', name: 'imageFile', onChange: this.handleFileInputChange, type: 'file', accept: 'image/gif, image/jpeg, image/png', ref: function ref(_ref) {
+                    _react2.default.createElement('input', { className: 'file-input', name: 'imageFile', onChange: this.handleFileInputChange, type: 'file', accept: 'image/*', ref: function ref(_ref) {
                             return _this3.fileUpload = _ref;
                         } }),
                     _react2.default.createElement(
