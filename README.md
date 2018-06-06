@@ -36,9 +36,7 @@ or you can use directly styles from this [file](https://raw.githubusercontent.co
 ```js
 import React, {Component} from 'react';
 import ImageCropper from 'react-image-file-cropper';
-import 'react-image-file-cropper/cropper.css'; // see installation section above for versions of NPM older than 3.0.0
-// If you choose not to use import, you need to assign Cropper to default
-// var Cropper = require('react-image-file-cropper').default
+import 'react-image-file-cropper/cropper.css'; 
 
 class Demo extends Component {
   onCrop(blob) {
