@@ -21,7 +21,9 @@ Install via [npm](https://www.npmjs.com/package/react-image-file-cropper)
 npm install --save react-image-file-cropper
 ```
 
-You need `cropper.css` in your project which is from [cropperjs](https://www.npmjs.com/package/cropperjs).
+You need `cropper.css` in your project which is from [cropperjs](https://www.npmjs.com/package/cropperjs)
+or you can use directly styles from this [file](https://raw.githubusercontent.com/adarsh-kannamveetil/react-image-file-cropper/master/app/css/cropper.css) 
+.
 
 
 # Changelog
@@ -94,9 +96,4 @@ npm run build-example
 
 ## Author
 Adarsh ks(adarshs.adarshs@gmail.com)
-
-## License
-
-## Keywords
-react, cropper, image preview
 
