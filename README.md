@@ -22,7 +22,7 @@ npm install --save react-image-file-cropper
 ```
 
 You need `cropper.css` in your project which is from [cropperjs](https://www.npmjs.com/package/cropperjs)
-or you can use directly styles from this [file](https://raw.githubusercontent.com/adarsh-kannamveetil/react-image-file-cropper/master/app/css/cropper.css) 
+or you can use directly styles from this [file](https://raw.githubusercontent.com/adarsh-kannamveetil/react-image-file-cropper/master/cropper.css) 
 .
 
 
