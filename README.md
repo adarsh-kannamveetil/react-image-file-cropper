@@ -21,7 +21,7 @@ Install via [npm](https://www.npmjs.com/package/react-image-file-cropper)
 npm install --save react-image-file-cropper
 ```
 
-You need `cropper.css` in your project which is from [cropperjs](https://www.npmjs.com/package/cropperjs)
+You need `cropper.css` in your project 
 or you can use directly styles from this [file](https://raw.githubusercontent.com/adarsh-kannamveetil/react-image-file-cropper/master/cropper.css) 
 .
 
@@ -36,7 +36,7 @@ or you can use directly styles from this [file](https://raw.githubusercontent.co
 ```js
 import React, {Component} from 'react';
 import ImagePreview from 'react-image-file-cropper';
-import 'cropperjs/dist/cropper.css'; // see installation section above for versions of NPM older than 3.0.0
+import 'react-image-file-cropper/cropper.css'; // see installation section above for versions of NPM older than 3.0.0
 // If you choose not to use import, you need to assign Cropper to default
 // var Cropper = require('react-image-file-cropper').default
 
