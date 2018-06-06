@@ -3,7 +3,7 @@ import Cropper from 'react-cropper';
 import b64toBlob from 'b64-to-blob';
 import { replace } from 'lodash';
 
-export default class ImagePreview extends React.Component {
+export default class ImageCropper extends React.Component {
 
     constructor(props) {
         super(props);

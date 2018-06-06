@@ -35,7 +35,7 @@ or you can use directly styles from this [file](https://raw.githubusercontent.co
 ## Quick Example
 ```js
 import React, {Component} from 'react';
-import ImagePreview from 'react-image-file-cropper';
+import ImageCropper from 'react-image-file-cropper';
 import 'react-image-file-cropper/cropper.css'; // see installation section above for versions of NPM older than 3.0.0
 // If you choose not to use import, you need to assign Cropper to default
 // var Cropper = require('react-image-file-cropper').default
@@ -51,7 +51,7 @@ class Demo extends Component {
 
   render() {
     return (
-        <ImagePreview 
+        <ImageCropper 
             cropper={true} 
             preview={true} 
             onCrop={this.onCrop} 
