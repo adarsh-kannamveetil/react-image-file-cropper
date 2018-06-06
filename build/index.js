@@ -18047,13 +18047,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var ImagePreview = function (_React$Component) {
-    _inherits(ImagePreview, _React$Component);
+var ImageCropper = function (_React$Component) {
+    _inherits(ImageCropper, _React$Component);
 
-    function ImagePreview(props) {
-        _classCallCheck(this, ImagePreview);
+    function ImageCropper(props) {
+        _classCallCheck(this, ImageCropper);
 
-        var _this = _possibleConstructorReturn(this, (ImagePreview.__proto__ || Object.getPrototypeOf(ImagePreview)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (ImageCropper.__proto__ || Object.getPrototypeOf(ImageCropper)).call(this, props));
 
         _this.state = {
             imagePreviewUrl: '',
@@ -18066,7 +18066,7 @@ var ImagePreview = function (_React$Component) {
         return _this;
     }
 
-    _createClass(ImagePreview, [{
+    _createClass(ImageCropper, [{
         key: 'handleFileInputChange',
         value: function handleFileInputChange(e) {
             var _this2 = this;
@@ -18137,10 +18137,10 @@ var ImagePreview = function (_React$Component) {
         }
     }]);
 
-    return ImagePreview;
+    return ImageCropper;
 }(_react2.default.Component);
 
-exports.default = ImagePreview;
+exports.default = ImageCropper;
 
 /***/ }),
 /* 10 */
