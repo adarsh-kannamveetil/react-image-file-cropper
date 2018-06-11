@@ -1,6 +1,6 @@
 {
   "name": "react-image-file-cropper",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "react-image-file-cropper",
   "main": "build/index.js",
   "peerDependencies": {
@@ -26,7 +26,10 @@
     "react",
     "react-component",
     "cropper",
-    "image"
+    "image",
+    "preview",
+    "file",
+    "upload"
   ],
   "license": "MIT",
   "author": {
